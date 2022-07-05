@@ -52,7 +52,7 @@ extension_services:
           My_License:
             class: License
             licenseType: regKey
-            regKey: REPLACE_WITH_VALID_REGKEY
+            regKey: IFLJJ-YWEDT-CWJSF-WNOHS-AEMQLTA
           admin:
             class: User
             userType: regular
@@ -298,10 +298,10 @@ pre_onboard_enabled:
 runtime_parameters:
   - name: VAULT_URL
     type: url
-    value: file:///config/cloud/vault_url
+    value: file:///config/cloud/https://kvcft.vault.azure.net/
   - name: SECRET_ID
     type: url
-    value: file:///config/cloud/secret_id
+    value: file:///config/cloud/https://kvcft.vault.azure.net/secrets/password/d4b7e7d6701a4a3d999b2df32d7565c7
   - name: BIGIP_PASSWORD
     type: secret
     secretProvider:
